@@ -7,16 +7,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
-import com.prueba.model.Propietario;
-import com.prueba.model.Vehiculo;
-import com.prueba.service.ServiceMatriculaImpl;
+import com.prueba.ejercicio_pa_u1_p4_mp.model.Propietario;
+import com.prueba.ejercicio_pa_u1_p4_mp.model.Vehiculo;
+import com.prueba.ejercicio_pa_u1_p4_mp.service.ServiceMatricula;
+import com.prueba.ejercicio_pa_u1_p4_mp.service.ServiceMatriculaImpl;
 
 @SpringBootApplication
 public class EjercicioPaU1P4MpApplication implements CommandLineRunner {
 	
-	@Autowired
-	ServiceMatriculaImpl serviceMatriculaImpl;
+	@Autowired 
+	ServiceMatricula serviceMatriculaImpl;
 
 
 	public static void main(String[] args) {

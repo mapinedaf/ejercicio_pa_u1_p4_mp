@@ -1,4 +1,4 @@
-package com.prueba.service;
+package com.prueba.ejercicio_pa_u1_p4_mp.service;
 
 import java.beans.JavaBean;
 import java.math.BigDecimal;
@@ -8,12 +8,12 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.prueba.model.Matricula;
-import com.prueba.model.Propietario;
-import com.prueba.model.Vehiculo;
-import com.prueba.repository.RepoMatricula;
-import com.prueba.repository.RepoPropietario;
-import com.prueba.repository.RepoVehiculo;
+import com.prueba.ejercicio_pa_u1_p4_mp.model.Matricula;
+import com.prueba.ejercicio_pa_u1_p4_mp.model.Propietario;
+import com.prueba.ejercicio_pa_u1_p4_mp.model.Vehiculo;
+import com.prueba.ejercicio_pa_u1_p4_mp.repository.RepoMatricula;
+import com.prueba.ejercicio_pa_u1_p4_mp.repository.RepoPropietario;
+import com.prueba.ejercicio_pa_u1_p4_mp.repository.RepoVehiculo;
 
 
 @Service

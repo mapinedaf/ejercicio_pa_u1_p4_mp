@@ -1,8 +1,8 @@
-package com.prueba.repository;
+package com.prueba.ejercicio_pa_u1_p4_mp.repository;
 
 import java.util.List;
 
-import com.prueba.model.Matricula;
+import com.prueba.ejercicio_pa_u1_p4_mp.model.Matricula;
 
 public interface RepoMatricula {
     

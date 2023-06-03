@@ -1,4 +1,4 @@
-package com.prueba.repository;
+package com.prueba.ejercicio_pa_u1_p4_mp.repository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.prueba.model.Propietario;
+import com.prueba.ejercicio_pa_u1_p4_mp.model.Propietario;
 
 @Repository
 public class RepoPropietarioImpl implements RepoPropietario{

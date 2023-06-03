@@ -1,4 +1,4 @@
-package com.prueba.model;
+package com.prueba.ejercicio_pa_u1_p4_mp.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
