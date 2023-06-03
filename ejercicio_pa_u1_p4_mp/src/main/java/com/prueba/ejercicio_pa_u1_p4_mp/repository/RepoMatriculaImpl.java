@@ -12,7 +12,7 @@ import com.prueba.ejercicio_pa_u1_p4_mp.model.Matricula;
 public class RepoMatriculaImpl implements RepoMatricula{
 
     @Autowired
-    private static ArrayList<Matricula> mockBase;
+    private static ArrayList<Matricula> mockBase = new ArrayList<>();
 
     @Override
     public void insertarMatricula(Matricula matricula) {

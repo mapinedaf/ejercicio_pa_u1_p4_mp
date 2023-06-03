@@ -13,7 +13,7 @@ public class RepoPropietarioImpl implements RepoPropietario{
 
 
     @Autowired
-    private static ArrayList<Propietario> mockBase;
+    private static ArrayList<Propietario> mockBase = new ArrayList<>();
 
     @Override
     public void insertarPropietario(Propietario propietario) {

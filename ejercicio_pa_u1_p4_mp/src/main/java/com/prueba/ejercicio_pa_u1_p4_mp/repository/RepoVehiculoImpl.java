@@ -12,7 +12,7 @@ import com.prueba.ejercicio_pa_u1_p4_mp.model.Vehiculo;
 public class RepoVehiculoImpl implements RepoVehiculo{
 
     @Autowired
-    private static ArrayList<Vehiculo> mockBase;
+    private static ArrayList<Vehiculo> mockBase = new ArrayList<>();
 
     @Override
     public void insertarVehiculo(Vehiculo vehiculo) {
